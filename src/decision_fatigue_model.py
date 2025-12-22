@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report
-df = pd.read_csv("data/decision_fatigue.csv")
+df = pd.read_csv("data/data.csv")
 df["sleep_hours"] = pd.to_numeric(df["sleep_hours"], errors="coerce")
 df = df.dropna()
 
