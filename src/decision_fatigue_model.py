@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 
-df = pd.read_csv("data/data.csv")
+df = pd.read_csv("data/data_final.csv")
 
 
 df = df.drop(columns=["id"])
