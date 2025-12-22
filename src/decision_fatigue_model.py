@@ -3,6 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report
 df = pd.read_csv("data/decision_fatigue.csv")
+df["sleep_hours"] = pd.to_numeric(df["sleep_hours"], errors="coerce")
+df = df.dropna()
 
 X = df.drop(["id", "decision_fatigue_level"], axis=1)
 y = df["decision_fatigue_level"]
