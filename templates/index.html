@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decision Fatigue Predictor</title>
+</head>
+<body>
+    <h2>Decision Fatigue Predictor</h2>
+
+    <form method="post">
+        Age: <input name="age"><br><br>
+        Academic Pressure (1-5): <input name="academic_pressure"><br><br>
+        Work Pressure (0-5): <input name="work_pressure"><br><br>
+        CGPA: <input name="cgpa"><br><br>
+        Study Satisfaction (1-5): <input name="study_satisfaction"><br><br>
+        Sleep Hours: <input name="sleep_hours"><br><br>
+        Work/Study Hours: <input name="work_study_hours"><br><br>
+        Financial Stress (1-5): <input name="financial_stress"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Result: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
 
