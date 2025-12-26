@@ -51,6 +51,10 @@ python3 src/decision_fatigue_model.py
 
 <img width="605" height="215" alt="image" src="https://github.com/user-attachments/assets/792a49c4-bb7d-4743-9f03-9c841e28c61f" />
 <img width="909" height="553" alt="image" src="https://github.com/user-attachments/assets/2e155ccf-f22a-48fa-9249-60e2fba4db27" />
+<img width="908" height="545" alt="image" src="https://github.com/user-attachments/assets/3c457502-d5a5-4ae5-8798-2d563246eaf8" />
+<img width="913" height="546" alt="image" src="https://github.com/user-attachments/assets/b6cf0408-6887-46ca-9c8f-9400d98fb182" />
+by clicking on professional help , we get directed to https://telemanas.mohfw.gov.in/home 
+
 
 
 
