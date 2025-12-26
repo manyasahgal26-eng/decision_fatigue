@@ -25,26 +25,13 @@ This project takes such inputs and predicts the level of decision fatigue.
 
 
 
-Supervised Learning: Used because the dataset contains labeled decision fatigue levels.
-
-Classification: Used to categorize fatigue into Low, Medium, and High.
-
-Data Preprocessing: Used to clean and convert raw input data into numerical form.
-
-Feature Selection: Used to keep only relevant factors affecting decision fatigue.
-
-Train–Test Split: Used to evaluate the model on unseen data.
-
-Decision Tree Classifier: Used for its simplicity and effectiveness on tabular data.
-
-Overfitting Control: Used to prevent the model from memorizing the data.
-
-Class Imbalance Handling: Used to avoid bias toward dominant classes.
-
-Model Evaluation (Accuracy): Used to measure model performance.
-
-Rule-based Post Processing: Used to make predictions more realistic and stable. 
-
+## Machine Learning Concepts Used
+- Supervised Learning  
+- Classification (Low / Medium / High)  
+- Data Preprocessing  
+- Decision Tree Classifier  
+- Overfitting Control  
+- Model Evaluation using Accuracy  
 
 
 ## Tech Stack
