@@ -50,6 +50,8 @@ to check model accuracy
 python3 src/decision_fatigue_model.py
 
 <img width="605" height="215" alt="image" src="https://github.com/user-attachments/assets/792a49c4-bb7d-4743-9f03-9c841e28c61f" />
+<img width="909" height="553" alt="image" src="https://github.com/user-attachments/assets/2e155ccf-f22a-48fa-9249-60e2fba4db27" />
+
 
 
 
